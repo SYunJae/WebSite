@@ -1,40 +1,22 @@
+<!doctype html>
 <html>
 <head>
+    <title>WEB - Index</title>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="0_style.css">
 </head>
 <body>
-    
-    <form action="">
-        <!-- ID로 연결 -->
-        <p>
-            <label for="id_text">Text</label> : 
-            <input id="id_text" type="text" name="id" value="default value">
-        </p>
-        <p>
-            <label for="password">password</label> :
-            <input id="password" type="password" name="pwd" value="default value">
-        </p>
-
-        <!-- 감싸서 연결 -->
-        <p>
-            <label>textarea : 
-                <textarea rows="2">default value</textarea>
-            </label>
-        </p>
-    </form>
-
-    <form action="http://localhost/form.php">
-        <input type="text">
-        <input type="submit" value="전송">
-        <input type="button" value="버튼" onclick="alert('hello world')">
-        <input type="reset">
-    </form>
-
-    <form action="http://localhost/hidden.php">
-        <input type="text" name="id">
-        <input type="hidden" name="hide" value="egoing">
-        <input type="submit">
-    </form>
-
+    <h1><a href="0_index.html">WEB</a></h1>
+    <div id="grid">
+        <div id="list">
+            <a href="1_HTML.html">HTML</a><br>
+            <a href="2_CSS.html">CSS</a><br>
+            <a href="3_JavaScript.html" class="saw">JavaScript</a>
+        </div>
+        <div id="article">
+            <h2>JavaScript</h2>
+                JavaScript (/ˈdʒɑːvəˌskrɪpt/), often abbreviated as JS, is a high-level, dynamic, weakly typed, object-based, multi-paradigm, and interpreted programming language. Alongside HTML and CSS, JavaScript is one of the three core technologies of World Wide Web content production. It is used to make webpages interactive and provide online programs, including video games. The majority of websites employ it, and all modern web browsers support it without the need for plug-ins by means of a built-in JavaScript engine. Each of the many JavaScript engines represent a different implementation of JavaScript, all based on the ECMAScript specification, with some engines not supporting the spectrum fully, and with many engines supporting additional features beyond ECMA.    
+        </div><!-- id="article" -->
+    </div><!-- id="grid" -->
 </body>
 </html>
